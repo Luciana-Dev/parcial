@@ -20,12 +20,12 @@ const Form = () => {
 }
 return (
     <div>
-        <label>Nombre y apellido</label>
+        <label >Nombre y apellido</label>
         <input type="text" onChange={(event) => setparticipante({...participante, nombre: event.target.value})}/>
         <label> DNI</label>
         <input type="text" onChange={(event) => setparticipante({...participante, dni: event.target.value})}/>
         <button onClick={handleSubmit}> Enviar </button>
-        {enviado && <h3> Ya estas participando por las entradas </h3>}
+        {enviado && <h3> Hola {participante.nombre} Ya estas participando por las entradas. Mucha suerte!!! </h3>}
         {error && <h3 style={{color: 'red'}}> Por favor chequea que la información sea correcta </h3>}
 
     </div>
