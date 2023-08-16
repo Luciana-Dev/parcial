@@ -1,0 +1,17 @@
+.caja{
+    width: 500px;
+    height: 155px;
+    display: block;
+    align-items: center;
+    
+    background-color: #ffffff;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+    
+
+}
+.boton{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    
+}
